@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tab_quan"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.tizz.xiaomeng.UI.Meng.QuanActivity">
+
+    <include layout="@layout/common_title_layout" />
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/blue"
+        app:tabSelectedTextColor="@color/white"
+        app:tabTextColor="@color/blue3"
+        app:tabIndicatorColor="@color/white"
+        app:tabTextAppearance="@style/tabTextSize"
+        app:tabIndicatorHeight="3dp">
+    </android.support.design.widget.TabLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_quan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center">
+    </android.support.v4.view.ViewPager>
+
+
+</LinearLayout>

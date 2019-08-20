@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.tizz.xiaomeng.UI.me_fragment.setting.SettingActivity">
+
+    <include layout="@layout/common_title_layout"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/helpUser"
+                android:layout_width="match_parent"
+                android:layout_height="50dip"
+                android:text="功能介绍"
+                style="@style/txtTitle"
+                android:textSize="16sp"
+                android:gravity="center_vertical"
+                android:paddingLeft="16dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/setting_item_selector"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="@color/black2"/>
+            <TextView
+                android:id="@+id/aboutAs"
+                android:layout_width="match_parent"
+                android:layout_height="50dip"
+                android:text="关于校盟"
+                style="@style/txtTitle"
+                android:textSize="16sp"
+                android:gravity="center_vertical"
+                android:paddingLeft="16dp"
+                android:background="@drawable/setting_item_selector"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="@color/black2"/>
+
+            <TextView
+                android:id="@+id/giveAdvice"
+                android:layout_width="match_parent"
+                android:layout_height="50dip"
+                android:text="提供反馈"
+                style="@style/txtTitle"
+                android:textSize="16sp"
+                android:gravity="center_vertical"
+                android:paddingLeft="16dp"
+                android:background="@drawable/setting_item_selector"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="@color/black2"/>
+
+            <TextView
+                android:id="@+id/cleanSpace"
+                android:layout_width="match_parent"
+                android:layout_height="50dip"
+                android:text="清理缓存"
+                style="@style/txtTitle"
+                android:textSize="16sp"
+                android:gravity="center_vertical"
+                android:paddingLeft="16dp"
+                android:background="@drawable/setting_item_selector"/>
+
+            <Button
+                android:id="@+id/btn_logout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="退出校盟"
+                android:layout_marginTop="20dp"
+                android:textSize="16sp"
+                android:textColor="@color/white"
+                android:background="@drawable/button_background"/>
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CheckBox" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

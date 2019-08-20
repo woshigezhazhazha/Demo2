@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.tizz.xiaomeng.UI.me_fragment.user_info.ShowHeadPhotoActivity">
+
+    <include layout="@layout/common_title_layout"/>
+
+
+    <ImageView
+        android:id="@+id/head"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/head"/>
+    <Button
+        android:id="@+id/btn_use"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_centerInParent="true"
+        android:text="使用"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/button_background"
+        style="?android:attr/borderlessButtonStyle"/>
+</RelativeLayout>

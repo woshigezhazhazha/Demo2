@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_createQuan"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context="com.tizz.xiaomeng.UI.Meng.CreateQuanActivity">
+
+    <include layout="@layout/common_title_layout"/>
+
+
+
+    <ImageView
+        android:id="@+id/iv_quanHead"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/head"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点击图片选择盟头像"
+        android:textSize="10sp"
+        android:layout_gravity="center"/>
+    <EditText
+        android:id="@+id/et_quanName"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:hint="输入圈昵称"
+        android:theme="@style/myEditText" />
+    <Button
+        android:id="@+id/btn_createQuan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:text="创建"
+        android:textSize="16dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        style="?android:attr/borderlessButtonStyle"/>
+
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.tizz.xiaomeng.UI.me_fragment.user_info.UserInfoActivity">
+
+    <include layout="@layout/common_title_layout"/>
+
+    <TextView
+        android:id="@+id/tv_myPhoto"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/setting_item_selector"
+        android:layout_marginTop="20dp"
+        android:text="编辑头像"
+        style="@style/txtTitle"
+        android:textSize="16sp"
+        android:paddingLeft="16dp"
+        android:gravity="center_vertical"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black2"/>
+    <TextView
+        android:id="@+id/tv_myName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/setting_item_selector"
+        android:text="编辑昵称"
+        style="@style/txtTitle"
+        android:textSize="16sp"
+        android:paddingLeft="16dp"
+        android:gravity="center_vertical"/>
+
+
+</LinearLayout>

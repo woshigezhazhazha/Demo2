@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="#FFF3BB"
+    android:clickable="true">
+
+    <ImageView
+        android:id="@+id/iv_neterror"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="25dp"
+        android:src="@drawable/icon_tip"
+        android:layout_centerVertical="true"/>
+
+    <TextView
+        android:id="@+id/tv_connect_errorMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:text="@string/no_network"
+        android:textColor="@color/black"
+        android:layout_toRightOf="@id/iv_neterror"
+        android:layout_centerVertical="true"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:background="#E3E0D5"/>
+
+
+</RelativeLayout>

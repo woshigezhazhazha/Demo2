@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tizz.xiaomeng.UI.Meng.tiezi_fragment">
+
+    <ListView
+        android:id="@+id/lv_tiezi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="在这里发帖"
+        android:layout_centerInParent="true">
+    </ListView>
+
+    <com.melnykov.fab.FloatingActionButton
+        android:id="@+id/fab_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_add_white_24dp"
+        fab:fab_colorNormal="@color/blue2"
+        fab:fab_colorPressed="@color/blue"
+        fab:fab_colorRipple="@color/blue"/>
+
+</RelativeLayout>

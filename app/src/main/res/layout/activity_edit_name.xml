@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_editName"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.tizz.xiaomeng.UI.me_fragment.user_info.EditNameActivity">
+
+    <include layout="@layout/common_title_layout"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+        <EditText
+            android:id="@+id/et_userName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="3dp"
+            android:theme="@style/myEditText"/>
+        <Button
+            android:id="@+id/btn_saveName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="保存"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:background="@drawable/button_background"
+            android:layout_marginRight="3dp"
+            android:layout_marginLeft="2dp"/>
+    </LinearLayout>
+
+</LinearLayout>

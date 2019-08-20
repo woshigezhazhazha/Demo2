@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_giveAdvice"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context="com.tizz.xiaomeng.UI.me_fragment.setting.GiveAdviceActivity">
+
+    <include layout="@layout/common_title_layout" />
+
+
+    <EditText
+        android:id="@+id/et_giveAdvice"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:inputType="none"
+        android:gravity="left"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/edittext_bg"
+        android:textCursorDrawable="@color/black4"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="说不定你的小意见很快会成真呢！"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"/>
+    <Button
+        android:id="@+id/btn_upLoadAdvice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="提交"
+        android:textColor="@color/white"
+        android:background="@drawable/button_background"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="140dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        style="?android:attr/borderlessButtonStyle"/>
+
+</LinearLayout>

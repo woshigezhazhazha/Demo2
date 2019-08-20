@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/black2">
+            </View>
+            <RelativeLayout
+                android:id="@+id/view_user"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dip"
+                android:paddingBottom="5dip"
+                android:layout_marginTop="10dip"
+                android:background="@drawable/setting_item_selector">
+                <ImageView
+                    android:id="@+id/head"
+                    android:layout_width="80dip"
+                    android:layout_height="80dip"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="10dip"
+                    android:src="@drawable/head"/>
+                <TextView
+                    android:id="@+id/tvname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dip"
+                    android:layout_toRightOf="@id/head"
+                    android:text="项龙"/>
+                <TextView
+                    android:id="@+id/tvmsg"
+                    style="@style/txt_ContextStyle1"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@id/tvname"
+                    android:layout_toRightOf="@id/head"
+                    android:text="我的地盘听我的!"
+                    android:textSize="14dip"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="15dip"
+                    android:src="@drawable/right"/>
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/txt_album"
+                style="@style/txtTitle"
+                android:layout_width="match_parent"
+                android:layout_height="50dip"
+                android:text="@string/my_posts"
+                android:textSize="16dip"
+                android:gravity="center_vertical"
+                android:layout_marginTop="20dip"
+                android:drawablePadding="10dip"
+                android:paddingRight="16dip"
+                android:paddingLeft="16dip"
+                android:drawableLeft="@drawable/me_photo"
+                android:drawableRight="@drawable/right" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="@color/black2">
+            </View>
+
+            <TextView
+                android:id="@+id/txt_myLike"
+                style="@style/txtTitle"
+                android:layout_width="match_parent"
+                android:layout_height="50dip"
+                android:text="@string/myLike"
+                android:textSize="16dip"
+                android:gravity="center_vertical"
+                android:layout_marginTop="20dip"
+                android:drawablePadding="10dip"
+                android:paddingRight="16dip"
+                android:paddingLeft="16dip"
+                android:drawableLeft="@drawable/icon_me_smail"
+                android:drawableRight="@drawable/right" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="@color/black2">
+            </View>
+
+            <TextView
+                android:id="@+id/txt_setting"
+                style="@style/txtTitle"
+                android:layout_width="match_parent"
+                android:layout_height="50dip"
+                android:text="@string/me_setting"
+                android:textSize="16dip"
+                android:gravity="center_vertical"
+                android:layout_marginTop="20dip"
+                android:drawablePadding="10dip"
+                android:paddingRight="16dip"
+                android:paddingLeft="16dip"
+                android:drawableLeft="@drawable/me_setting"
+                android:drawableRight="@drawable/right" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="@color/black2">
+            </View>
+
+
+            <TextView
+                android:id="@+id/txt_aboutUs"
+                style="@style/txtTitle"
+                android:layout_width="match_parent"
+                android:layout_height="50dip"
+                android:text="@string/aboutUs"
+                android:textSize="16dip"
+                android:gravity="center_vertical"
+                android:layout_marginTop="20dip"
+                android:drawablePadding="10dip"
+                android:paddingRight="16dip"
+                android:paddingLeft="16dip"
+                android:drawableLeft="@drawable/icon_me_smail"
+                android:drawableRight="@drawable/right" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="@color/black2">
+            </View>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

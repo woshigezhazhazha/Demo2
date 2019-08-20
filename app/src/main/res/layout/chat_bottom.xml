@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:gravity="center_vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/black3"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"
+        android:paddingRight="5dp"
+        android:paddingLeft="8dp"
+        android:background="@color/black2">
+
+        <ImageView
+            android:id="@+id/iv_emotion"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_marginRight="10dp"
+            android:clickable="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/icon_emotion"/>
+
+        <EditText
+            android:id="@+id/et_chatInfo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minHeight="36dp"
+            android:maxLines="3"
+            android:textSize="16sp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textCursorDrawable="@color/blue"
+            android:background="@drawable/edit_white_bg"/>
+
+        <Button
+            android:id="@+id/btn_sendInfo"
+            android:layout_height="35dp"
+            android:layout_width="45dp"
+            android:layout_marginLeft="5dp"
+            android:padding="1dp"
+            android:text="发送"
+            android:textColor="@color/white"
+            android:background="@drawable/button_background"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/black3"/>
+
+    <RelativeLayout
+        android:id="@+id/emotion_icons"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <com.tizz.xiaomeng.Widget.NoScrollViewPager
+            android:id="@+id/emotion_viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

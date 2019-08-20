@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.tizz.xiaomeng.UI.discovery_fragment.NearMengActivity">
+
+    <include layout="@layout/common_title_layout"/>
+
+    <ListView
+        android:id="@+id/lv_nearMeng"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="10dip"
+        android:paddingLeft="5dip">
+    </ListView>
+
+</LinearLayout>

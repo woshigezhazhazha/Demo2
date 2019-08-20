@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">校盟</string>
+    <string name="appName">校盟</string>
+    <string name="about_us_1">校盟只为冲破孤独而生，\n
+        我们不断探索，\n只为降低社交门槛，\n让世界上再没有孤独的人</string>
+    <string name="about_us_2">创始人：布鲁斯-佯</string>
+    <string name="help_user">1)在一个已经存在的或者你刚刚建好的盟里，你可以根据兴趣、目的创建各种透明圈，所有的透明圈都会被展示在盟里。\n2)你可以进入一个透明圈，查看里面的帖子、聊天信息，但需登录并关注此圈后才可以发帖发言。\n3)你可以依据地理位置、盟名称搜索发现感兴趣的盟和透明圈。\n</string>
+
+</resources>
